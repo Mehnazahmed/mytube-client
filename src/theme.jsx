@@ -11,5 +11,12 @@ export const theme =createTheme({
         error:{
             main: '#ff0000',
         },
+    },
+    components:{
+        MuiContainer:{
+            defaultProps:{
+                maxWidth:'xl'
+            }
+        }
     }
 })

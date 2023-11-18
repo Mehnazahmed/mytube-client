@@ -1,10 +1,12 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import Videos from '../../components/Videos/Videos';
 
 const Home = () => {
     return (
         <Box>
-           <h1>home</h1> 
+           
+           <Videos/>
             
         </Box>
     );
