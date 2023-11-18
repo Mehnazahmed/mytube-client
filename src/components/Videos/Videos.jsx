@@ -21,6 +21,7 @@ const Videos = () => {
           sx={{
             maxWidth: 500,
             mx: "auto",
+            mt:'1rem'
           }}
         >
           <TabButton value={value} setValue={setValue} videos={videos} />

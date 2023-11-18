@@ -15,8 +15,8 @@ export default function TabButton({ value, setValue,videos}) {
     console.log(videos)
 
   const CustomTabs = styled(Tabs)(({ theme }) => ({
-    padding: "5px",
-    borderRadius: "15px",
+    // padding: "5px",
+    // borderRadius: "10px",
     boxShadow:
       "rgba(17,17,26, 0.05) 0px 1px 0px,rgba(17,17,26, 0.1) 0px 0px 8px",
     "& .MuiTabs-flexContainer": {
@@ -32,22 +32,16 @@ export default function TabButton({ value, setValue,videos}) {
     },
 
     "& .Mui-selected": {
-      background: theme.palette.primary.main,
+      background: '#FF1F3D',
       color: "#ffffff !important",
-      borderRadius: "15px",
+      // borderRadius: "15px",
     },
     "& .MuiTabs-indicator": {
       display: "none",
     },
   }));
    
-  // const categoryIndex = categories.findIndex(
-  //   (category) => category.category_id === videos[value]?.category_id
-  // );
-
-  // if (categoryIndex !== -1 && categoryIndex !== value) {
-  //   setValue(categoryIndex);
-  // }
+  
 
 
   

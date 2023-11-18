@@ -7,14 +7,14 @@ import axiosInstance from "../utils/axiosInstance";
 const useData =(category_id)=>{
     const [videos,setVideos] =useState([]);
     const[loading,setLoading] =useState(true);
-    const [error,setError] =useState('');
+    const [error,setError] =useState(null);
 
     
    
     useEffect(()=>{
 
         let url = 'videos';
-        if(category_id){
+        if(category_id && category_id !=='1000'){
             url = `${url}/${category_id}`;
         }
         

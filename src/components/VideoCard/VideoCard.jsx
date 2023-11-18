@@ -7,12 +7,12 @@ const VideoCard = ({ video }) => {
     <Box
       sx={{
         width: "100%",
-        maxWidth: "350px",
+        maxWidth: "360px",
         padding: "30px 20px",
         borderRadius: "10px",
         "&:hover": {
           cursor: "pointer",
-          boxShadow: 20,
+         
         },
       }}
     >
